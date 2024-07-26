@@ -21,6 +21,10 @@ import Card from "../components/Card.astro";
 				</ul>
 			</Card>
 		</div>
+		<button
+			class="bg-[#C15F3C] text-white p-4 rounded-lg mx-auto mt-12"
+			@click=" newWord()">Nuova parola</button
+		>
 		<!-- <ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
@@ -53,6 +57,11 @@ import Card from "../components/Card.astro";
 		Alpine.data("words", () => ({
 			words: vocabulary,
 			selected: null,
+
+			newWord() {
+				this.selected =
+					this.words[Math.floor(Math.random() * this.words.length)];
+			},
 
 			init() {
 				// random word
