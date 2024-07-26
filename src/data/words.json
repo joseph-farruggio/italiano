@@ -1,0 +1,521 @@
+[
+	{
+		"italiano": "Lontano",
+		"inglese": "Far",
+		"type": "adjective",
+		"variations": {
+			"masculine": "lontano",
+			"feminine": "lontana",
+			"plural": "lontani"
+		},
+		"sentences": [
+			"Il parco è lontano da qui.",
+			"La stazione è lontana.",
+			"I negozi sono lontani."
+		]
+	},
+	{
+		"italiano": "Vicino",
+		"inglese": "Near",
+		"type": "adjective",
+		"variations": {
+			"masculine": "vicino",
+			"feminine": "vicina",
+			"plural": "vicini"
+		},
+		"sentences": [
+			"Il ristorante è vicino.",
+			"La farmacia è vicina.",
+			"I miei amici abitano vicini."
+		]
+	},
+	{
+		"italiano": "Qui vicino",
+		"inglese": "Nearby",
+		"type": "adverbial phrase",
+		"sentences": [
+			"C'è un supermercato qui vicino.",
+			"Abito qui vicino."
+		]
+	},
+	{
+		"italiano": "Troppo",
+		"inglese": "Too much",
+		"type": "adverb",
+		"sentences": [
+			"Mangio troppo.",
+			"Parli troppo velocemente."
+		]
+	},
+	{
+		"italiano": "E poi",
+		"inglese": "And then",
+		"type": "conjunction",
+		"sentences": [
+			"Prima studiamo e poi usciamo.",
+			"Ho fatto colazione e poi sono andato al lavoro."
+		]
+	},
+	{
+		"italiano": "C'è anche",
+		"inglese": "There is also",
+		"type": "phrase",
+		"sentences": [
+			"C'è anche un parco in città.",
+			"Nel menu c'è anche la pizza."
+		]
+	},
+	{
+		"italiano": "Non c'è male",
+		"inglese": "Not bad",
+		"type": "phrase",
+		"sentences": [
+			"Come stai? Non c'è male.",
+			"Il film? Non c'è male."
+		]
+	},
+	{
+		"italiano": "Dica",
+		"inglese": "Say (formal imperative)",
+		"type": "verb",
+		"sentences": [
+			"Dica pure, signore.",
+			"Mi dica, come posso aiutarla?"
+		]
+	},
+	{
+		"italiano": "Forse",
+		"inglese": "Maybe",
+		"type": "adverb",
+		"sentences": [
+			"Forse verrò alla festa.",
+			"Forse pioverà domani."
+		]
+	},
+	{
+		"italiano": "Mi può aiutare",
+		"inglese": "Can you help me",
+		"type": "phrase",
+		"sentences": [
+			"Mi può aiutare, per favore?",
+			"Mi può aiutare a trovare l'ufficio?"
+		]
+	},
+	{
+		"italiano": "Lentamente",
+		"inglese": "Slowly",
+		"type": "adverb",
+		"sentences": [
+			"Parla lentamente, per favore.",
+			"Cammino lentamente."
+		]
+	},
+	{
+		"italiano": "Ripetere",
+		"inglese": "To repeat",
+		"type": "verb",
+		"conjugations": {
+			"infinitive": "ripetere",
+			"present": "ripeto",
+			"past": "ho ripetuto",
+			"future": "ripeterò"
+		},
+		"sentences": [
+			"Puoi ripetere, per favore?",
+			"Ho ripetuto la lezione molte volte."
+		]
+	},
+	{
+		"italiano": "Perso",
+		"inglese": "Lost",
+		"type": "adjective",
+		"variations": {
+			"masculine": "perso",
+			"feminine": "persa",
+			"plural": "persi"
+		},
+		"sentences": [
+			"Sono perso, può aiutarmi?",
+			"La chiave è persa.",
+			"I turisti sono persi."
+		]
+	},
+	{
+		"italiano": "Femmina",
+		"inglese": "Female",
+		"type": "noun",
+		"sentences": [
+			"La femmina del leone è la leonessa.",
+			"Questo gatto è una femmina."
+		]
+	},
+	{
+		"italiano": "Maschio",
+		"inglese": "Male",
+		"type": "noun",
+		"sentences": [
+			"Il maschio del leone ha la criniera.",
+			"Questo cane è un maschio."
+		]
+	},
+	{
+		"italiano": "Prenotazione",
+		"inglese": "Reservation",
+		"type": "noun",
+		"sentences": [
+			"Ho fatto una prenotazione al ristorante.",
+			"La prenotazione è a nome di Rossi."
+		]
+	},
+	{
+		"italiano": "Libero",
+		"inglese": "Free",
+		"type": "adjective",
+		"variations": {
+			"masculine": "libero",
+			"feminine": "libera",
+			"plural": "liberi"
+		},
+		"sentences": [
+			"Il tavolo è libero.",
+			"La sedia è libera.",
+			"I posti sono liberi."
+		]
+	},
+	{
+		"italiano": "Camera",
+		"inglese": "Room",
+		"type": "noun",
+		"sentences": [
+			"Vorrei prenotare una camera.",
+			"La mia camera è al secondo piano."
+		]
+	},
+	{
+		"italiano": "Guardare",
+		"inglese": "To look",
+		"type": "verb",
+		"conjugations": {
+			"infinitive": "guardare",
+			"present": "guardo",
+			"past": "ho guardato",
+			"future": "guarderò"
+		},
+		"sentences": [
+			"Mi piace guardare il tramonto.",
+			"Ho guardato un film ieri sera."
+		]
+	},
+	{
+		"italiano": "Triste",
+		"inglese": "Sad",
+		"type": "adjective",
+		"variations": {
+			"masculine": "triste",
+			"feminine": "triste",
+			"plural": "tristi"
+		},
+		"sentences": [
+			"Sono triste oggi.",
+			"La storia è triste.",
+			"I bambini sembrano tristi."
+		]
+	},
+	{
+		"italiano": "Stanco",
+		"inglese": "Tired",
+		"type": "adjective",
+		"variations": {
+			"masculine": "stanco",
+			"feminine": "stanca",
+			"plural": "stanchi"
+		},
+		"sentences": [
+			"Sono stanco dopo il lavoro.",
+			"Lei è stanca dal viaggio.",
+			"Siamo stanchi di aspettare."
+		]
+	},
+	{
+		"italiano": "Spaventato",
+		"inglese": "Scared",
+		"type": "adjective",
+		"variations": {
+			"masculine": "spaventato",
+			"feminine": "spaventata",
+			"plural": "spaventati"
+		},
+		"sentences": [
+			"Il bambino è spaventato dal buio.",
+			"La ragazza sembra spaventata.",
+			"Siamo spaventati dal temporale."
+		]
+	},
+	{
+		"italiano": "Forte",
+		"inglese": "Strong",
+		"type": "adjective",
+		"variations": {
+			"masculine": "forte",
+			"feminine": "forte",
+			"plural": "forti"
+		},
+		"sentences": [
+			"Lui è molto forte.",
+			"La sua voce è forte.",
+			"I venti sono forti oggi."
+		]
+	},
+	{
+		"italiano": "Debole",
+		"inglese": "Weak",
+		"type": "adjective",
+		"variations": {
+			"masculine": "debole",
+			"feminine": "debole",
+			"plural": "deboli"
+		},
+		"sentences": [
+			"Mi sento debole oggi.",
+			"La connessione è debole qui.",
+			"Le prove sono deboli."
+		]
+	},
+	{
+		"italiano": "Arrabbiato",
+		"inglese": "Angry",
+		"type": "adjective",
+		"variations": {
+			"masculine": "arrabbiato",
+			"feminine": "arrabbiata",
+			"plural": "arrabbiati"
+		},
+		"sentences": [
+			"Sono arrabbiato con te.",
+			"Lei è arrabbiata per il ritardo.",
+			"I clienti sono arrabbiati per il servizio."
+		]
+	},
+	{
+		"italiano": "Annoiato",
+		"inglese": "Bored",
+		"type": "adjective",
+		"variations": {
+			"masculine": "annoiato",
+			"feminine": "annoiata",
+			"plural": "annoiati"
+		},
+		"sentences": [
+			"Sono annoiato a casa.",
+			"La ragazza sembra annoiata.",
+			"Gli studenti sono annoiati dalla lezione."
+		]
+	},
+	{
+		"italiano": "Carino",
+		"inglese": "Cute",
+		"type": "adjective",
+		"variations": {
+			"masculine": "carino",
+			"feminine": "carina",
+			"plural": "carini"
+		},
+		"sentences": [
+			"Il gattino è carino.",
+			"Che idea carina!",
+			"I tuoi figli sono carini."
+		]
+	},
+	{
+		"italiano": "Alto",
+		"inglese": "Tall",
+		"type": "adjective",
+		"variations": {
+			"masculine": "alto",
+			"feminine": "alta",
+			"plural": "alti"
+		},
+		"sentences": [
+			"Mio fratello è alto.",
+			"La torre è alta.",
+			"Gli alberi sono alti."
+		]
+	},
+	{
+		"italiano": "Grande",
+		"inglese": "Big",
+		"type": "adjective",
+		"variations": {
+			"masculine": "grande",
+			"feminine": "grande",
+			"plural": "grandi"
+		},
+		"sentences": [
+			"Ho una grande casa.",
+			"La città è grande.",
+			"I problemi sono grandi."
+		]
+	},
+	{
+		"italiano": "Eccitato",
+		"inglese": "Excited",
+		"type": "adjective",
+		"variations": {
+			"masculine": "eccitato",
+			"feminine": "eccitata",
+			"plural": "eccitati"
+		},
+		"sentences": [
+			"Sono eccitato per il viaggio.",
+			"Lei è eccitata per la festa.",
+			"I bambini sono eccitati per Natale."
+		]
+	},
+	{
+		"italiano": "Emozionato",
+		"inglese": "Emotional",
+		"type": "adjective",
+		"variations": {
+			"masculine": "emozionato",
+			"feminine": "emozionata",
+			"plural": "emozionati"
+		},
+		"sentences": [
+			"Sono emozionato per il concerto.",
+			"La sposa è emozionata.",
+			"Siamo emozionati per la notizia."
+		]
+	},
+	{
+		"italiano": "Concentrato",
+		"inglese": "Focused",
+		"type": "adjective",
+		"variations": {
+			"masculine": "concentrato",
+			"feminine": "concentrata",
+			"plural": "concentrati"
+		},
+		"sentences": [
+			"Sono concentrato sul lavoro.",
+			"Lei è concentrata sullo studio.",
+			"Gli atleti sono concentrati sulla gara."
+		]
+	},
+	{
+		"italiano": "Ottimo",
+		"inglese": "Excellent",
+		"type": "adjective",
+		"variations": {
+			"masculine": "ottimo",
+			"feminine": "ottima",
+			"plural": "ottimi"
+		},
+		"sentences": [
+			"Il cibo era ottimo.",
+			"L'idea è ottima.",
+			"I risultati sono ottimi."
+		]
+	},
+	{
+		"italiano": "Introverso",
+		"inglese": "Introverted",
+		"type": "adjective",
+		"variations": {
+			"masculine": "introverso",
+			"feminine": "introversa",
+			"plural": "introversi"
+		},
+		"sentences": [
+			"Sono una persona introversa.",
+			"Mia sorella è introversa.",
+			"Alcuni artisti sono introversi."
+		]
+	},
+	{
+		"italiano": "Intenditore",
+		"inglese": "Connoisseur",
+		"type": "noun",
+		"sentences": [
+			"Lui è un intenditore di vini.",
+			"Gli intenditori apprezzano la qualità."
+		]
+	},
+	{
+		"italiano": "Settimana",
+		"inglese": "Week",
+		"type": "noun",
+		"sentences": [
+			"Ci vediamo la prossima settimana.",
+			"Lavoro cinque giorni a settimana."
+		]
+	},
+	{
+		"italiano": "Felice",
+		"inglese": "Happy",
+		"type": "adjective",
+		"variations": {
+			"masculine": "felice",
+			"feminine": "felice",
+			"plural": "felici"
+		},
+		"sentences": [
+			"Sono felice di vederti.",
+			"Lei è felice per il successo.",
+			"Siamo felici della notizia."
+		]
+	},
+	{
+		"italiano": "Insieme",
+		"inglese": "Together",
+		"type": "adverb",
+		"sentences": [
+			"Andiamo insieme al cinema.",
+			"Lavoriamo bene insieme."
+		]
+	},
+	{
+		"italiano": "Interessato",
+		"inglese": "Interested",
+		"type": "adjective",
+		"variations": {
+			"masculine": "interessato",
+			"feminine": "interessata",
+			"plural": "interessati"
+		},
+		"sentences": [
+			"Sono interessato all'arte.",
+			"Lei è interessata alla proposta.",
+			"Siamo interessati a visitare il museo."
+		]
+	},
+	{
+		"italiano": "Chiedere",
+		"inglese": "To ask",
+		"type": "verb",
+		"conjugations": {
+			"infinitive": "chiedere",
+			"present": "chiedo",
+			"past": "ho chiesto",
+			"future": "chiederò"
+		},
+		"sentences": [
+			"Posso chiederti un favore?",
+			"Ho chiesto informazioni all'ufficio turistico."
+		]
+	},
+	{
+		"italiano": "Imparare",
+		"inglese": "To learn",
+		"type": "verb",
+		"conjugations": {
+			"infinitive": "imparare",
+			"present": "imparo",
+			"past": "ho imparato",
+			"future": "imparerò"
+		},
+		"sentences": [
+			"Mi piace imparare nuove lingue.",
+			"Ho imparato molto durante il viaggio."
+		]
+	}
+]
