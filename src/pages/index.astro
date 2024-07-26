@@ -3,50 +3,65 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Imparare l'Italiano.">
 	<main x-data="words()">
-		<h1 class="mt-4" x-text="selected.italiano"></h1>
+		<h1 class="mt-4 min-h-[70px]" x-text="selected.italiano"></h1>
 
 		<div class="space-y-4">
-			<Card>
-				<span slot="title">Inglese</span>
-				<p slot="body" x-text="selected.inglese"></p>
-			</Card>
-			<Card title="Frasi">
-				<span slot="title">Frasi</span>
-				<ul slot="body">
-					<template x-for="sentence in selected.sentences">
-						<li x-text="sentence"></li>
-					</template>
-				</ul>
-			</Card>
+			<div class="bg-[#393937] p-4 rounded-lg">
+				<button
+					class="flex items-center justify-between w-full text-white/50"
+					@click="definitionOpen = !definitionOpen">
+					<span>Inglese</span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						class="size-8 transition-transform"
+						:class="open && 'rotate-180'">
+						<path
+							fill-rule="evenodd"
+							d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+							clip-rule="evenodd"></path>
+					</svg>
+				</button>
+
+				<div class="mt-4" x-cloak x-show="definitionOpen">
+					<p x-text="selected.inglese"></p>
+				</div>
+			</div>
+
+			<div class="bg-[#393937] p-4 rounded-lg">
+				<button
+					class="flex items-center justify-between w-full text-white/50"
+					@click="sentencesOpen = !sentencesOpen">
+					<span>Frasi</span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						class="size-8 transition-transform"
+						:class="open && 'rotate-180'">
+						<path
+							fill-rule="evenodd"
+							d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+							clip-rule="evenodd"></path>
+					</svg>
+				</button>
+
+				<div class="mt-4" x-cloak x-show="sentencesOpen">
+					<ul slot="body">
+						<template x-for="sentence in selected.sentences">
+							<li x-text="sentence"></li>
+						</template>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<button
 			class="bg-[#C15F3C] text-white p-4 rounded-lg mx-auto mt-12"
 			@click=" newWord()">Nuova parola</button
 		>
-		<!-- <ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul> -->
 	</main>
 </Layout>
 
@@ -58,9 +73,14 @@ import Card from "../components/Card.astro";
 			words: vocabulary,
 			selected: null,
 
+			definitionOpen: false,
+			sentencesOpen: false,
+
 			newWord() {
 				this.selected =
 					this.words[Math.floor(Math.random() * this.words.length)];
+				this.definitionOpen = false;
+				this.sentencesOpen = false;
 			},
 
 			init() {
